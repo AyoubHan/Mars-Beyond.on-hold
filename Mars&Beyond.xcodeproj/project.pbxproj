@@ -7,22 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4741561526D1694100B36088 /* space.scn in Resources */ = {isa = PBXBuildFile; fileRef = 4741561426D1694100B36088 /* space.scn */; };
+		4741561526D1694100B36088 /* earth.scn in Resources */ = {isa = PBXBuildFile; fileRef = 4741561426D1694100B36088 /* earth.scn */; };
+		47959E8826D2DC9A006022C0 /* MarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47959E8726D2DC9A006022C0 /* MarsViewController.swift */; };
+		47959E8D26D2E01C006022C0 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47959E8C26D2E01C006022C0 /* Storyboard.swift */; };
+		47959E8F26D2E97C006022C0 /* mars.scn in Resources */ = {isa = PBXBuildFile; fileRef = 47959E8E26D2E97C006022C0 /* mars.scn */; };
 		47DF663C26D004970066B518 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DF663B26D004970066B518 /* AppDelegate.swift */; };
 		47DF663E26D004970066B518 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DF663D26D004970066B518 /* SceneDelegate.swift */; };
-		47DF664026D004970066B518 /* SpaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DF663F26D004970066B518 /* SpaceViewController.swift */; };
-		47DF664326D004970066B518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47DF664126D004970066B518 /* Main.storyboard */; };
+		47DF664026D004970066B518 /* EarthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47DF663F26D004970066B518 /* EarthViewController.swift */; };
+		47DF664326D004970066B518 /* space.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47DF664126D004970066B518 /* space.storyboard */; };
 		47DF664526D004990066B518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47DF664426D004990066B518 /* Assets.xcassets */; };
 		47DF664826D004990066B518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47DF664626D004990066B518 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4741561426D1694100B36088 /* space.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = space.scn; sourceTree = "<group>"; };
+		4741561426D1694100B36088 /* earth.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = earth.scn; sourceTree = "<group>"; };
+		47959E8726D2DC9A006022C0 /* MarsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsViewController.swift; sourceTree = "<group>"; };
+		47959E8C26D2E01C006022C0 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		47959E8E26D2E97C006022C0 /* mars.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = mars.scn; sourceTree = "<group>"; };
 		47DF663826D004970066B518 /* Mars&Beyond.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mars&Beyond.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		47DF663B26D004970066B518 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47DF663D26D004970066B518 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		47DF663F26D004970066B518 /* SpaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceViewController.swift; sourceTree = "<group>"; };
-		47DF664226D004970066B518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47DF663F26D004970066B518 /* EarthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthViewController.swift; sourceTree = "<group>"; };
+		47DF664226D004970066B518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/space.storyboard; sourceTree = "<group>"; };
 		47DF664426D004990066B518 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47DF664726D004990066B518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47DF664926D004990066B518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,7 +48,8 @@
 		4741561626D1699B00B36088 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				47DF663F26D004970066B518 /* SpaceViewController.swift */,
+				47DF663F26D004970066B518 /* EarthViewController.swift */,
+				47959E8726D2DC9A006022C0 /* MarsViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -50,11 +57,20 @@
 		4741561726D169AD00B36088 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				4741561426D1694100B36088 /* space.scn */,
-				47DF664126D004970066B518 /* Main.storyboard */,
+				4741561426D1694100B36088 /* earth.scn */,
+				47959E8E26D2E97C006022C0 /* mars.scn */,
+				47DF664126D004970066B518 /* space.storyboard */,
 				47DF664626D004990066B518 /* LaunchScreen.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		47959E8B26D2E00E006022C0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				47959E8C26D2E01C006022C0 /* Storyboard.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		47DF662F26D004970066B518 = {
@@ -76,6 +92,7 @@
 		47DF663A26D004970066B518 /* Mars&Beyond */ = {
 			isa = PBXGroup;
 			children = (
+				47959E8B26D2E00E006022C0 /* Helpers */,
 				4741561726D169AD00B36088 /* View */,
 				4741561626D1699B00B36088 /* Controller */,
 				47DF663B26D004970066B518 /* AppDelegate.swift */,
@@ -143,10 +160,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47959E8F26D2E97C006022C0 /* mars.scn in Resources */,
 				47DF664826D004990066B518 /* LaunchScreen.storyboard in Resources */,
 				47DF664526D004990066B518 /* Assets.xcassets in Resources */,
-				47DF664326D004970066B518 /* Main.storyboard in Resources */,
-				4741561526D1694100B36088 /* space.scn in Resources */,
+				47DF664326D004970066B518 /* space.storyboard in Resources */,
+				4741561526D1694100B36088 /* earth.scn in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,7 +175,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47DF664026D004970066B518 /* SpaceViewController.swift in Sources */,
+				47DF664026D004970066B518 /* EarthViewController.swift in Sources */,
+				47959E8D26D2E01C006022C0 /* Storyboard.swift in Sources */,
+				47959E8826D2DC9A006022C0 /* MarsViewController.swift in Sources */,
 				47DF663C26D004970066B518 /* AppDelegate.swift in Sources */,
 				47DF663E26D004970066B518 /* SceneDelegate.swift in Sources */,
 			);
@@ -166,12 +186,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		47DF664126D004970066B518 /* Main.storyboard */ = {
+		47DF664126D004970066B518 /* space.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				47DF664226D004970066B518 /* Base */,
 			);
-			name = Main.storyboard;
+			name = space.storyboard;
 			sourceTree = "<group>";
 		};
 		47DF664626D004990066B518 /* LaunchScreen.storyboard */ = {
